@@ -1,5 +1,4 @@
-# Use Hash to avoid JDK bug introduced to tag and reported here: https://github.com/carlossg/docker-maven/issues/92
-FROM adoptopenjdk/maven-openjdk8@sha256:f80c6d72cacf2f6d399f74aa13ad1159b98f8e37b25a0d2d4670b7a57ec2181b
+FROM adoptopenjdk/maven-openjdk11:latest
 
 # install aws-cli
 RUN set -ex \
